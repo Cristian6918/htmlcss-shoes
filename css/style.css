@@ -2,7 +2,6 @@
    
     margin:0;
     box-sizing: border-box;
-    overflow:auto;
     position: relative;
 }
 
@@ -30,7 +29,7 @@
     height: 10vh;
     position:absolute;
     position:fixed;
-    background-color:pink;
+   
     top:0;
     right:0;
     z-index:3;
@@ -54,5 +53,34 @@ button a{
     font-weight:900;
     font-size:10px;
     
+}
+
+img {
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    position:absolute;
+    width:40%;
+    font-size:40px;
+    text-align:center;
+    left:50%;
+    bottom:10%;
+    transform: translate(-50%);
+    font-weight: bolder;
+    color:yellow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.green{
+    color:green;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
 

@@ -1,8 +1,9 @@
 *{
-    padding:0;
+   
     margin:0;
     box-sizing: border-box;
     overflow:auto;
+    position: relative;
 }
 
 #first{
@@ -23,3 +24,35 @@
     height: 100vh;
     background: yellow;
 }
+
+.menu{
+    width:20%;
+    height: 10vh;
+    position:absolute;
+    position:fixed;
+    background-color:pink;
+    top:0;
+    right:0;
+    z-index:3;
+    overflow: hidden;
+    line-height: 10vh;
+    vertical-align: center;
+    text-align: center;
+}
+
+.menu button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border:1px solid black;
+    background-color:white;
+    margin:5px;
+}
+
+button a{
+    text-decoration: none;
+    font-weight:900;
+    font-size:10px;
+    
+}
+

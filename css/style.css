@@ -1,26 +1,24 @@
 *{
-   
     margin:0;
     box-sizing: border-box;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section{
+    width:100%;
+    height: 100vh;
 }
 
 #first{
-    width: 100%;
-    height: 100vh;
     background: red ;
 }
 
 #second{
-    width: 100%;
-    height: 100vh;
     background: green ;
-
 }
 
 #third{
-    width: 100%;
-    height: 100vh;
     background: yellow;
 }
 
@@ -29,7 +27,6 @@
     height: 10vh;
     position:absolute;
     position:fixed;
-   
     top:0;
     right:0;
     z-index:3;
@@ -40,19 +37,19 @@
 }
 
 .menu button{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     border:1px solid black;
     background-color:white;
     margin:5px;
+    
 }
 
 button a{
     text-decoration: none;
-    font-weight:900;
+    font-weight:bold;
     font-size:10px;
-    
 }
 
 img {
@@ -73,7 +70,7 @@ img {
     transform: translate(-50%);
     font-weight: bolder;
     color:yellow;
-    font-family: 'Montserrat', sans-serif;
+   
 }
 
 .green{
